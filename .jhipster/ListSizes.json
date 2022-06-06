@@ -1,0 +1,27 @@
+{
+  "applications": ["reportapp"],
+  "changelogDate": "20220606102934",
+  "dto": "no",
+  "embedded": false,
+  "entityTableName": "list_sizes",
+  "fields": [
+    {
+      "fieldName": "description",
+      "fieldType": "String"
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": false,
+  "name": "ListSizes",
+  "pagination": "no",
+  "readOnly": false,
+  "relationships": [
+    {
+      "otherEntityName": "inspection",
+      "otherEntityRelationshipName": "listSizes",
+      "relationshipName": "inspection",
+      "relationshipType": "one-to-many"
+    }
+  ],
+  "service": "no"
+}

@@ -1,0 +1,25 @@
+{
+  "reportappApp": {
+    "phytoChina": {
+      "home": {
+        "title": "Phyto Chinas",
+        "refreshListLabel": "Refrescar lista",
+        "createLabel": "Crear nuevo Phyto China",
+        "createOrEditLabel": "Crear o editar Phyto China",
+        "notFound": "Ningún Phyto Chinas encontrado"
+      },
+      "created": "Un nuevo Phyto China ha sido creado con el identificador {{ param }}",
+      "updated": "Un Phyto China ha sido actualizado con el identificador {{ param }}",
+      "deleted": "Un Phyto China ha sido eliminado con el identificador {{ param }}",
+      "delete": {
+        "question": "¿Seguro que quiere eliminar Phyto China {{ id }}?"
+      },
+      "detail": {
+        "title": "Phyto China"
+      },
+      "id": "ID",
+      "description": "Description",
+      "inspection": "Inspection"
+    }
+  }
+}

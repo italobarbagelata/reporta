@@ -1,0 +1,31 @@
+{
+  "applications": ["reportapp"],
+  "changelogDate": "20220606102932",
+  "dto": "no",
+  "embedded": false,
+  "entityTableName": "final_overall",
+  "fields": [
+    {
+      "fieldName": "note",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "description",
+      "fieldType": "String"
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": false,
+  "name": "FinalOverall",
+  "pagination": "no",
+  "readOnly": false,
+  "relationships": [
+    {
+      "otherEntityName": "inspection",
+      "otherEntityRelationshipName": "finalOverall",
+      "relationshipName": "inspection",
+      "relationshipType": "one-to-many"
+    }
+  ],
+  "service": "no"
+}

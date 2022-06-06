@@ -1,0 +1,25 @@
+{
+  "reportappApp": {
+    "variety": {
+      "home": {
+        "title": "Varieties",
+        "refreshListLabel": "Refrescar lista",
+        "createLabel": "Crear nuevo Variety",
+        "createOrEditLabel": "Crear o editar Variety",
+        "notFound": "Ningún Varieties encontrado"
+      },
+      "created": "Un nuevo Variety ha sido creado con el identificador {{ param }}",
+      "updated": "Un Variety ha sido actualizado con el identificador {{ param }}",
+      "deleted": "Un Variety ha sido eliminado con el identificador {{ param }}",
+      "delete": {
+        "question": "¿Seguro que quiere eliminar Variety {{ id }}?"
+      },
+      "detail": {
+        "title": "Variety"
+      },
+      "id": "ID",
+      "description": "Description",
+      "inspection": "Inspection"
+    }
+  }
+}

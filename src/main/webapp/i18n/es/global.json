@@ -1,12 +1,24 @@
 {
   "global": {
-    "title": "Reporta",
+    "title": "Reportapp",
     "browsehappy": "Está usando un navegador <strong>no actualizado</strong>. Por favor, <a href=\"http://browsehappy.com/?locale=es\">actualice su navegador</a> para mejorar su experiencia.",
     "menu": {
       "home": "Inicio",
       "jhipster-needle-menu-add-element": "JHipster will add additional menu entries here (do not translate!)",
       "entities": {
         "main": "Entidades",
+        "color": "Color",
+        "dispatchs": "Dispatchs",
+        "exporter": "Exporter",
+        "finalOverall": "Final Overall",
+        "label": "Label",
+        "listSizes": "List Sizes",
+        "packages": "Packages",
+        "phytoChina": "Phyto China",
+        "specie": "Specie",
+        "variety": "Variety",
+        "weight": "Weight",
+        "inspection": "Inspection",
         "jhipster-needle-menu-add-entry": "JHipster will add additional entities here (do not translate!)"
       },
       "account": {

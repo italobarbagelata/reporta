@@ -1,0 +1,44 @@
+{
+  "reportappApp": {
+    "inspection": {
+      "home": {
+        "title": "Inspections",
+        "refreshListLabel": "Refrescar lista",
+        "createLabel": "Crear nuevo Inspection",
+        "createOrEditLabel": "Crear o editar Inspection",
+        "notFound": "Ningún Inspections encontrado"
+      },
+      "created": "Un nuevo Inspection ha sido creado con el identificador {{ param }}",
+      "updated": "Un Inspection ha sido actualizado con el identificador {{ param }}",
+      "deleted": "Un Inspection ha sido eliminado con el identificador {{ param }}",
+      "delete": {
+        "question": "¿Seguro que quiere eliminar Inspection {{ id }}?"
+      },
+      "detail": {
+        "title": "Inspection"
+      },
+      "id": "ID",
+      "reportDate": "Report Date",
+      "description": "Description",
+      "place": "Place",
+      "inspectionDate": "Inspection Date",
+      "grower": "Grower",
+      "packingDate": "Packing Date",
+      "observations": "Observations",
+      "finalRecomendations": "Final Recomendations",
+      "extraDetails": "Extra Details",
+      "user": "User",
+      "label": "Label",
+      "exporter": "Exporter",
+      "phytoChina": "Phyto China",
+      "dispatchs": "Dispatchs",
+      "packages": "Packages",
+      "weight": "Weight",
+      "specie": "Specie",
+      "variety": "Variety",
+      "color": "Color",
+      "finalOverall": "Final Overall",
+      "listSizes": "List Sizes"
+    }
+  }
+}

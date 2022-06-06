@@ -1,0 +1,25 @@
+{
+  "reportappApp": {
+    "listSizes": {
+      "home": {
+        "title": "List Sizes",
+        "refreshListLabel": "Refrescar lista",
+        "createLabel": "Crear nuevo List Sizes",
+        "createOrEditLabel": "Crear o editar List Sizes",
+        "notFound": "Ningún List Sizes encontrado"
+      },
+      "created": "Un nuevo List Sizes ha sido creado con el identificador {{ param }}",
+      "updated": "Un List Sizes ha sido actualizado con el identificador {{ param }}",
+      "deleted": "Un List Sizes ha sido eliminado con el identificador {{ param }}",
+      "delete": {
+        "question": "¿Seguro que quiere eliminar List Sizes {{ id }}?"
+      },
+      "detail": {
+        "title": "List Sizes"
+      },
+      "id": "ID",
+      "description": "Description",
+      "inspection": "Inspection"
+    }
+  }
+}

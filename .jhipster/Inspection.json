@@ -1,0 +1,137 @@
+{
+  "applications": ["reportapp"],
+  "changelogDate": "20220606102940",
+  "dto": "no",
+  "embedded": false,
+  "entityTableName": "inspection",
+  "fields": [
+    {
+      "fieldName": "reportDate",
+      "fieldType": "Instant"
+    },
+    {
+      "fieldName": "description",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "place",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "inspectionDate",
+      "fieldType": "Instant"
+    },
+    {
+      "fieldName": "grower",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "packingDate",
+      "fieldType": "Instant"
+    },
+    {
+      "fieldName": "observations",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "finalRecomendations",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "extraDetails",
+      "fieldType": "String"
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": false,
+  "name": "Inspection",
+  "pagination": "pagination",
+  "readOnly": false,
+  "relationships": [
+    {
+      "otherEntityField": "login",
+      "otherEntityName": "user",
+      "otherEntityRelationshipName": "inspection",
+      "relationshipName": "user",
+      "relationshipType": "many-to-one"
+    },
+    {
+      "otherEntityField": "description",
+      "otherEntityName": "label",
+      "otherEntityRelationshipName": "inspection",
+      "relationshipName": "label",
+      "relationshipType": "many-to-one"
+    },
+    {
+      "otherEntityField": "description",
+      "otherEntityName": "exporter",
+      "otherEntityRelationshipName": "inspection",
+      "relationshipName": "exporter",
+      "relationshipType": "many-to-one"
+    },
+    {
+      "otherEntityField": "description",
+      "otherEntityName": "phytoChina",
+      "otherEntityRelationshipName": "inspection",
+      "relationshipName": "phytoChina",
+      "relationshipType": "many-to-one"
+    },
+    {
+      "otherEntityField": "description",
+      "otherEntityName": "dispatchs",
+      "otherEntityRelationshipName": "inspection",
+      "relationshipName": "dispatchs",
+      "relationshipType": "many-to-one"
+    },
+    {
+      "otherEntityField": "description",
+      "otherEntityName": "packages",
+      "otherEntityRelationshipName": "inspection",
+      "relationshipName": "packages",
+      "relationshipType": "many-to-one"
+    },
+    {
+      "otherEntityField": "description",
+      "otherEntityName": "weight",
+      "otherEntityRelationshipName": "inspection",
+      "relationshipName": "weight",
+      "relationshipType": "many-to-one"
+    },
+    {
+      "otherEntityField": "description",
+      "otherEntityName": "specie",
+      "otherEntityRelationshipName": "inspection",
+      "relationshipName": "specie",
+      "relationshipType": "many-to-one"
+    },
+    {
+      "otherEntityField": "description",
+      "otherEntityName": "variety",
+      "otherEntityRelationshipName": "inspection",
+      "relationshipName": "variety",
+      "relationshipType": "many-to-one"
+    },
+    {
+      "otherEntityField": "description",
+      "otherEntityName": "color",
+      "otherEntityRelationshipName": "inspection",
+      "relationshipName": "color",
+      "relationshipType": "many-to-one"
+    },
+    {
+      "otherEntityField": "description",
+      "otherEntityName": "finalOverall",
+      "otherEntityRelationshipName": "inspection",
+      "relationshipName": "finalOverall",
+      "relationshipType": "many-to-one"
+    },
+    {
+      "otherEntityField": "description",
+      "otherEntityName": "listSizes",
+      "otherEntityRelationshipName": "inspection",
+      "relationshipName": "listSizes",
+      "relationshipType": "many-to-one"
+    }
+  ],
+  "service": "no"
+}

@@ -11,7 +11,7 @@ export interface IMenuItem {
   'data-cy'?: string;
 }
 
-export default class MenuItem extends React.Component<any, any> {
+export default class MenuItem extends React.Component<IMenuItem> {
   render() {
     const { to, icon, id, children } = this.props;
 

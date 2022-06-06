@@ -1,0 +1,25 @@
+{
+  "reportappApp": {
+    "exporter": {
+      "home": {
+        "title": "Exporters",
+        "refreshListLabel": "Refrescar lista",
+        "createLabel": "Crear nuevo Exporter",
+        "createOrEditLabel": "Crear o editar Exporter",
+        "notFound": "Ningún Exporters encontrado"
+      },
+      "created": "Un nuevo Exporter ha sido creado con el identificador {{ param }}",
+      "updated": "Un Exporter ha sido actualizado con el identificador {{ param }}",
+      "deleted": "Un Exporter ha sido eliminado con el identificador {{ param }}",
+      "delete": {
+        "question": "¿Seguro que quiere eliminar Exporter {{ id }}?"
+      },
+      "detail": {
+        "title": "Exporter"
+      },
+      "id": "ID",
+      "description": "Description",
+      "inspection": "Inspection"
+    }
+  }
+}

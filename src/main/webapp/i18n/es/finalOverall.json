@@ -1,0 +1,26 @@
+{
+  "reportappApp": {
+    "finalOverall": {
+      "home": {
+        "title": "Final Overalls",
+        "refreshListLabel": "Refrescar lista",
+        "createLabel": "Crear nuevo Final Overall",
+        "createOrEditLabel": "Crear o editar Final Overall",
+        "notFound": "Ningún Final Overalls encontrado"
+      },
+      "created": "Un nuevo Final Overall ha sido creado con el identificador {{ param }}",
+      "updated": "Un Final Overall ha sido actualizado con el identificador {{ param }}",
+      "deleted": "Un Final Overall ha sido eliminado con el identificador {{ param }}",
+      "delete": {
+        "question": "¿Seguro que quiere eliminar Final Overall {{ id }}?"
+      },
+      "detail": {
+        "title": "Final Overall"
+      },
+      "id": "ID",
+      "note": "Note",
+      "description": "Description",
+      "inspection": "Inspection"
+    }
+  }
+}

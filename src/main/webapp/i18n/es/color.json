@@ -1,0 +1,25 @@
+{
+  "reportappApp": {
+    "color": {
+      "home": {
+        "title": "Colors",
+        "refreshListLabel": "Refrescar lista",
+        "createLabel": "Crear nuevo Color",
+        "createOrEditLabel": "Crear o editar Color",
+        "notFound": "Ningún Colors encontrado"
+      },
+      "created": "Un nuevo Color ha sido creado con el identificador {{ param }}",
+      "updated": "Un Color ha sido actualizado con el identificador {{ param }}",
+      "deleted": "Un Color ha sido eliminado con el identificador {{ param }}",
+      "delete": {
+        "question": "¿Seguro que quiere eliminar Color {{ id }}?"
+      },
+      "detail": {
+        "title": "Color"
+      },
+      "id": "ID",
+      "description": "Description",
+      "inspection": "Inspection"
+    }
+  }
+}

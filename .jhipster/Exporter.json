@@ -1,0 +1,27 @@
+{
+  "applications": ["reportapp"],
+  "changelogDate": "20220606102931",
+  "dto": "no",
+  "embedded": false,
+  "entityTableName": "exporter",
+  "fields": [
+    {
+      "fieldName": "description",
+      "fieldType": "String"
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": false,
+  "name": "Exporter",
+  "pagination": "no",
+  "readOnly": false,
+  "relationships": [
+    {
+      "otherEntityName": "inspection",
+      "otherEntityRelationshipName": "exporter",
+      "relationshipName": "inspection",
+      "relationshipType": "one-to-many"
+    }
+  ],
+  "service": "no"
+}

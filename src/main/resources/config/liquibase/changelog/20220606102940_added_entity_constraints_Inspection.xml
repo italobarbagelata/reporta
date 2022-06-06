@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<databaseChangeLog
+    xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-4.6.xsd">
+    <!--
+        Added the constraints for entity Inspection.
+    -->
+    <changeSet id="20220606102940-2" author="jhipster">
+
+        <addForeignKeyConstraint baseColumnNames="user_id"
+                                 baseTableName="inspection"
+                                 constraintName="fk_inspection__user_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="jhi_user"/>
+
+        <addForeignKeyConstraint baseColumnNames="label_id"
+                                 baseTableName="inspection"
+                                 constraintName="fk_inspection__label_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="label"/>
+
+        <addForeignKeyConstraint baseColumnNames="exporter_id"
+                                 baseTableName="inspection"
+                                 constraintName="fk_inspection__exporter_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="exporter"/>
+
+        <addForeignKeyConstraint baseColumnNames="phyto_china_id"
+                                 baseTableName="inspection"
+                                 constraintName="fk_inspection__phyto_china_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="phyto_china"/>
+
+        <addForeignKeyConstraint baseColumnNames="dispatchs_id"
+                                 baseTableName="inspection"
+                                 constraintName="fk_inspection__dispatchs_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="dispatchs"/>
+
+        <addForeignKeyConstraint baseColumnNames="packages_id"
+                                 baseTableName="inspection"
+                                 constraintName="fk_inspection__packages_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="packages"/>
+
+        <addForeignKeyConstraint baseColumnNames="weight_id"
+                                 baseTableName="inspection"
+                                 constraintName="fk_inspection__weight_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="weight"/>
+
+        <addForeignKeyConstraint baseColumnNames="specie_id"
+                                 baseTableName="inspection"
+                                 constraintName="fk_inspection__specie_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="specie"/>
+
+        <addForeignKeyConstraint baseColumnNames="variety_id"
+                                 baseTableName="inspection"
+                                 constraintName="fk_inspection__variety_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="variety"/>
+
+        <addForeignKeyConstraint baseColumnNames="color_id"
+                                 baseTableName="inspection"
+                                 constraintName="fk_inspection__color_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="color"/>
+
+        <addForeignKeyConstraint baseColumnNames="final_overall_id"
+                                 baseTableName="inspection"
+                                 constraintName="fk_inspection__final_overall_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="final_overall"/>
+
+        <addForeignKeyConstraint baseColumnNames="list_sizes_id"
+                                 baseTableName="inspection"
+                                 constraintName="fk_inspection__list_sizes_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="list_sizes"/>
+    </changeSet>
+</databaseChangeLog>

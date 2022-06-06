@@ -1,0 +1,25 @@
+{
+  "reportappApp": {
+    "dispatchs": {
+      "home": {
+        "title": "Dispatchs",
+        "refreshListLabel": "Refrescar lista",
+        "createLabel": "Crear nuevo Dispatchs",
+        "createOrEditLabel": "Crear o editar Dispatchs",
+        "notFound": "Ningún Dispatchs encontrado"
+      },
+      "created": "Un nuevo Dispatchs ha sido creado con el identificador {{ param }}",
+      "updated": "Un Dispatchs ha sido actualizado con el identificador {{ param }}",
+      "deleted": "Un Dispatchs ha sido eliminado con el identificador {{ param }}",
+      "delete": {
+        "question": "¿Seguro que quiere eliminar Dispatchs {{ id }}?"
+      },
+      "detail": {
+        "title": "Dispatchs"
+      },
+      "id": "ID",
+      "description": "Description",
+      "inspection": "Inspection"
+    }
+  }
+}

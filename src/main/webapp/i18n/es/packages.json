@@ -1,0 +1,25 @@
+{
+  "reportappApp": {
+    "packages": {
+      "home": {
+        "title": "Packages",
+        "refreshListLabel": "Refrescar lista",
+        "createLabel": "Crear nuevo Packages",
+        "createOrEditLabel": "Crear o editar Packages",
+        "notFound": "Ningún Packages encontrado"
+      },
+      "created": "Un nuevo Packages ha sido creado con el identificador {{ param }}",
+      "updated": "Un Packages ha sido actualizado con el identificador {{ param }}",
+      "deleted": "Un Packages ha sido eliminado con el identificador {{ param }}",
+      "delete": {
+        "question": "¿Seguro que quiere eliminar Packages {{ id }}?"
+      },
+      "detail": {
+        "title": "Packages"
+      },
+      "id": "ID",
+      "description": "Description",
+      "inspection": "Inspection"
+    }
+  }
+}

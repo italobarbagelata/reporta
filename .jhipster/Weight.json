@@ -1,0 +1,27 @@
+{
+  "applications": ["reportapp"],
+  "changelogDate": "20220606102939",
+  "dto": "no",
+  "embedded": false,
+  "entityTableName": "weight",
+  "fields": [
+    {
+      "fieldName": "description",
+      "fieldType": "String"
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": false,
+  "name": "Weight",
+  "pagination": "no",
+  "readOnly": false,
+  "relationships": [
+    {
+      "otherEntityName": "inspection",
+      "otherEntityRelationshipName": "weight",
+      "relationshipName": "inspection",
+      "relationshipType": "one-to-many"
+    }
+  ],
+  "service": "no"
+}

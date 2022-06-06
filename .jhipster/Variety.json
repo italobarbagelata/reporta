@@ -1,0 +1,27 @@
+{
+  "applications": ["reportapp"],
+  "changelogDate": "20220606102938",
+  "dto": "no",
+  "embedded": false,
+  "entityTableName": "variety",
+  "fields": [
+    {
+      "fieldName": "description",
+      "fieldType": "String"
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": false,
+  "name": "Variety",
+  "pagination": "no",
+  "readOnly": false,
+  "relationships": [
+    {
+      "otherEntityName": "inspection",
+      "otherEntityRelationshipName": "variety",
+      "relationshipName": "inspection",
+      "relationshipType": "one-to-many"
+    }
+  ],
+  "service": "no"
+}

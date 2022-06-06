@@ -1,0 +1,25 @@
+{
+  "reportappApp": {
+    "specie": {
+      "home": {
+        "title": "Species",
+        "refreshListLabel": "Refrescar lista",
+        "createLabel": "Crear nuevo Specie",
+        "createOrEditLabel": "Crear o editar Specie",
+        "notFound": "Ningún Species encontrado"
+      },
+      "created": "Un nuevo Specie ha sido creado con el identificador {{ param }}",
+      "updated": "Un Specie ha sido actualizado con el identificador {{ param }}",
+      "deleted": "Un Specie ha sido eliminado con el identificador {{ param }}",
+      "delete": {
+        "question": "¿Seguro que quiere eliminar Specie {{ id }}?"
+      },
+      "detail": {
+        "title": "Specie"
+      },
+      "id": "ID",
+      "description": "Description",
+      "inspection": "Inspection"
+    }
+  }
+}

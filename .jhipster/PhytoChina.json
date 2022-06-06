@@ -1,0 +1,27 @@
+{
+  "applications": ["reportapp"],
+  "changelogDate": "20220606102936",
+  "dto": "no",
+  "embedded": false,
+  "entityTableName": "phyto_china",
+  "fields": [
+    {
+      "fieldName": "description",
+      "fieldType": "String"
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": false,
+  "name": "PhytoChina",
+  "pagination": "no",
+  "readOnly": false,
+  "relationships": [
+    {
+      "otherEntityName": "inspection",
+      "otherEntityRelationshipName": "phytoChina",
+      "relationshipName": "inspection",
+      "relationshipType": "one-to-many"
+    }
+  ],
+  "service": "no"
+}
